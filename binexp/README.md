@@ -7,15 +7,14 @@ how buffer overflows work in principle.
 
 `./compilation` contains information about shared objects, GOT, and PLT.
 
-`backtrace.c` shows you how function stackframes work. In particular, set
-breakpoints at each function, each function's `leave`/`pop rbp` instructions
-and each function's `ret` instructions and see how the values of `$rbp` and
-`$rsp` change and how it affects program execution.
+`./ret2libc` contains an example of a ret2libc attack on 64 bit with a brief
+intro to ROP gadgets.
 
-`buffer.c` is very simple in principle. Overflow the buffer to change the
-variable value. This will be helpful for you in calculating offsets.
+`./ret_addr` shows how you can manipulate the return address to hit the target
+of your choice, shellcode or function.
 
-`env_vars.c` shows you how env flags are iterated through.
+`./shellcodes` shows you how you can invoke a shellcode from the stack as a
+function.
 
 ## Some helpful tips
 
