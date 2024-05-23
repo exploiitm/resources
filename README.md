@@ -8,6 +8,7 @@ Additional resources for binexp practice:
 
 - pwn101 10 levels
 - picoGYM binexp tag
+- pwnable.kr
 
 ## WebExp
 
@@ -19,3 +20,12 @@ Additional resources for practice:
 - picoGYM
 - OWASP Juice Shop
 - PortSwigger
+
+## Reversing
+
+> Under progress
+
+Practice resources:
+
+- crackmes.one
+- picogym reversing
