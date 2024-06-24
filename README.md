@@ -1,5 +1,13 @@
 # Resources
 
+## Basic Linux Commands
+
+- [good video tutorial](https://youtu.be/3JExlyA_iAs?si=bmxyTkYxi14cnMDf)
+
+- Bandit overthewire (atleast the first 20 levels)
+
+- [If you are really curious](linuxjourney.com)
+
 ## BinExp
 
 To learn binexp, I don't need to say it really.
